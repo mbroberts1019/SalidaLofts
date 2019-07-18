@@ -18,6 +18,18 @@ app.get("/", (req,res)=>{
     res.render('home');
 });
 
+app.get("/operahouse", (req,res)=>{
+  res.render('operaHouse');
+});
+
+app.get("/woodhouse", (req,res)=>{
+  res.render('woodHouse');
+});
+
+app.get("/mountainloft", (req,res)=>{
+  res.render('mountainLoft');
+});
+
 
 let port = process.env.PORT;
 if (port == null || port == "") {
