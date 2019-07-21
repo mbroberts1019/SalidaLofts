@@ -34,7 +34,7 @@ app.get("/testimonials", (req,res)=>{
   res.render('testimonials');
 });
 
-app.get("contact", (req,res)=>{
+app.get("/contact", (req,res)=>{
   res.render('contact');
 });
 
