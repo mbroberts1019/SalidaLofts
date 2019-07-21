@@ -30,6 +30,14 @@ app.get("/mountainloft", (req,res)=>{
   res.render('mountainLoft');
 });
 
+app.get("/testimonials", (req,res)=>{
+  res.render('testimonials');
+});
+
+app.get("contact", (req,res)=>{
+  res.render('contact');
+});
+
 
 let port = process.env.PORT;
 if (port == null || port == "") {
