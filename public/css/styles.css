@@ -1,3 +1,8 @@
+footer{
+    text-align: center;
+    margin: 2rem 0 2rem
+}
+
 #homeBanner {
     background-image: url("../images/kitchen.jpg");
     background-position: 50% 50%; 
@@ -17,10 +22,12 @@
 }
 
 #reviewCarousel {
-    background-color: #3f3e3e;
+    background-color: #9b9898;
     background-image: url("./../images/chair.jpg");
     background-blend-mode: multiply;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: rgb(253, 253, 253);
     text-align: center;
     padding: 0% 15% 0vh;
@@ -37,6 +44,28 @@
     font-family: Bradley Hand, cursive;
     font-size: 1.5rem;
     padding-top: 5%;
+}
+
+.amenityReview{
+    margin-top: 3rem;
+}
+
+.reviewTitle{
+    font-family: cursive;
+    font-size: 1.6rem;
+
+}
+
+.reviewCard{
+    border: none;
+    text-align: center;
+} 
+.reviewCardText{
+    font-size: .8rem;
+}
+.loft-description-title{
+    font-size: 2rem;
+    font-weight: 400;
 }
 
 
